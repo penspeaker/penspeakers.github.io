@@ -1,0 +1,46 @@
+
+
+ .flex.flex-31 {
+			-moz-align-items: stretch;
+			-webkit-align-items: stretch;
+			-ms-align-items: stretch;
+			/*align-items: stretch;*/
+			
+		}
+
+			.flex.flex-31.center {
+				-moz-align-items: center;
+				-webkit-align-items: center;
+				-ms-align-items: center;
+				/*align-items: center;*/
+			}
+
+		
+			
+
+			@media screen and (max-width: 736px) {
+
+				
+			}
+
+		.flex.flex-31 .col {
+			width: 18%;
+		}
+
+			@media screen and (max-width: 736px) {
+
+				.flex.flex-31 .col {
+					width: 100%;
+					margin-bottom: 2em;
+				}
+
+					.flex.flex-31 .col .image {
+						max-width: 60%;
+						margin: 0 auto 2em auto;
+					}
+
+			}
+
+		.flex.flex-41 .col {
+			width: 12%;
+		}
